@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @config "./tailwind.config.js";
+
+@layer utilities {
+  .error {
+    @apply border-2;
+    @apply border-red-600;
+    @apply rounded-lg;
+  }
+}
